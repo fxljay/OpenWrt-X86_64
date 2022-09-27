@@ -27,7 +27,6 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-s
 git clone -b packages https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 git clone https://github.com/fw876/helloworld package/helloworld
-git clone https://github.com/pymumu/smartdns package/smartdns
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/geodata
 # git clone https://github.com/pymumu/smartdns.git package/smartdns
