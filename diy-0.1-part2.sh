@@ -29,7 +29,6 @@ sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=6.0/g' target/linux/x86/Makefil
 git clone --branch master --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lluci-app-vssr
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone -b beta https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
